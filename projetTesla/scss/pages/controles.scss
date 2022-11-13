@@ -1,0 +1,91 @@
+#h1Controles {
+	text-align: center;
+	font-size: 26px;
+}
+
+#voitureControles {
+	display: block;
+	width: auto;
+	margin-left: 0;
+	margin-right: 0;
+
+	@include for-phone-only{
+		width: 65%;
+	}
+	@include for-mobile-landscape{
+		margin-top: 50px;
+		width: 55%;
+	}
+}
+
+#chevronRetour {
+	display: block;
+	position: absolute;
+	width: 30px;
+}
+
+#controles{
+	
+	@include for-mobile-landscape{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-evenly;
+	}
+	@include for-tablet-portrait{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-evenly;
+	}
+	@include for-laptops{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-evenly;
+	}	
+	@include for-desktop{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-evenly;
+	}
+}
+
+#menuControles{
+	@include for-tablet-portrait{
+		flex-direction: column;
+	}
+	@include for-laptops{
+		flex-direction: column;
+	}
+	@include for-desktop{
+		flex-direction: column;
+	}
+	@include for-mobile-landscape{
+		flex-direction: column;
+	}
+}
+
+#carControl{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+
+	button{
+		margin: 0;
+		padding: 0;
+	}
+}
+
+#buttonCharge{
+	width: 25px;
+	position: relative;
+	top: 190px;
+	@include for-phone-only{
+    	top: 180px;
+	}
+	@include for-mobile-landscape{
+		top: 145px;
+	}
+}

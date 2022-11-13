@@ -1,0 +1,406 @@
+#h1Controles {
+  text-align: center;
+  font-size: 26px;
+}
+
+#voitureControles {
+  display: block;
+  width: auto;
+  margin-left: 0;
+  margin-right: 0;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  #voitureControles {
+    width: 65%;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  #voitureControles {
+    margin-top: 50px;
+    width: 55%;
+  }
+}
+
+#chevronRetour {
+  display: block;
+  position: absolute;
+  width: 30px;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  #controles {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  #controles {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1280px) {
+  #controles {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
+@media (min-width: 1280px) {
+  #controles {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  #menuControles {
+    flex-direction: column;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1280px) {
+  #menuControles {
+    flex-direction: column;
+  }
+}
+@media (min-width: 1280px) {
+  #menuControles {
+    flex-direction: column;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  #menuControles {
+    flex-direction: column;
+  }
+}
+
+#carControl {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+#carControl button {
+  margin: 0;
+  padding: 0;
+}
+
+#buttonCharge {
+  width: 25px;
+  position: relative;
+  top: 190px;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  #buttonCharge {
+    top: 180px;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  #buttonCharge {
+    top: 145px;
+  }
+}
+
+html {
+  background-color: #161717;
+  color: #f3f3f3;
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+html body {
+  margin: 0;
+}
+
+h1 {
+  font-weight: 500;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  h1 {
+    font-size: 50px;
+  }
+}
+
+#h1Index {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0;
+}
+
+#statut {
+  margin-left: 10px;
+}
+
+data, label, small {
+  color: #8a8b8b;
+}
+
+ul {
+  list-style: none;
+}
+
+#menus {
+  padding: 0;
+  margin-right: 20px;
+}
+@media (min-width: 1280px) {
+  #menus {
+    width: 40%;
+  }
+}
+
+.menu {
+  margin-left: 15px;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-around;
+}
+.menu img {
+  width: 100%;
+}
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .menu img {
+    width: 90%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .menu img {
+    width: 80%;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .menu img {
+    width: 70%;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .menu img {
+    width: 70%;
+  }
+}
+
+#accueil {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  flex-direction: column;
+}
+@media (min-width: 1280px) {
+  #accueil {
+    flex-direction: row;
+    margin-top: 170px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1280px) {
+  #accueil {
+    flex-direction: row;
+  }
+}
+
+#voiture {
+  width: 50%;
+  height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 20px;
+}
+@media (min-width: 1280px) {
+  #voiture {
+    margin-left: 30px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1280px) {
+  #voiture {
+    margin-left: 10px;
+    align-self: flex-start;
+    margin-top: 120px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  #voiture {
+    width: 80%;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  #voiture {
+    width: 60%;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  #voiture {
+    width: 80%;
+  }
+}
+
+.icons {
+  width: 12%;
+  height: 12%;
+  margin-right: 15px;
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .icons {
+    width: 33px;
+    height: 33px;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .icons {
+    width: 26px;
+    height: 26px;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .icons {
+    width: 23px;
+    height: 23px;
+  }
+}
+
+#top {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+#top a {
+  display: flex;
+  justify-content: flex-end;
+}
+#top img {
+  width: 50px;
+  height: 50px;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  #top img {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+#menuList {
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 20px;
+}
+#menuList p {
+  margin: 0;
+}
+#menuList li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style-type: none;
+}
+#menuList a {
+  margin-right: 20px;
+  /*margin-top: 27px;*/
+  color: #ffffff;
+  text-decoration: none;
+}
+#menuList .chevron {
+  color: #8a8b8b;
+}
+#menuList .lienMenu {
+  display: flex;
+  margin-left: 25px;
+  width: 100%;
+  height: 100%;
+}
+#menuList label, #menuList small {
+  font-size: 15px;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  #menuList label, #menuList small {
+    font-size: 18px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  #menuList {
+    font-size: 35px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  #menuList {
+    font-size: 35px;
+  }
+}
+
+ol {
+  padding: 0;
+}
+
+li a {
+  text-decoration: none;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.icon img {
+  display: block;
+  width: 50% !important;
+}
+
+#labelStationnee {
+  margin-left: 10px;
+  margin-top: 5px;
+  font-size: 13px !important;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  #batterie label, #batterie small {
+    font-size: 20px;
+  }
+}
+
+header {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  margin-right: 20px;
+}
+button a {
+  color: #454546 !important;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  margin-top: 50px;
+  padding: 8px 20px;
+  background: #454546;
+  color: white;
+}
+footer p {
+  color: #8a8b8b;
+}
+
+.liMenu {
+  padding-top: 5px;
+  padding-bottom: 3px;
+}
+.liMenu:hover {
+  background-color: #252525;
+}
+
+/*# sourceMappingURL=style.css.map */

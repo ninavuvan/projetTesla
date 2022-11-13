@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Accueil</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <header>
+            <section id="top">
+                <h1 id="h1Index">Simone</h1>
+                <a role="button" href="#"><img src="teslaIcons/profile.png" alt="avatar"></a>
+            </section>
+            <section id="statut">
+                <section id="batterie">
+                    <label for="batteriepourcentage">Batterie</label>
+                    <progress id="batteriepourcentage" value="71" max="100" aria-valuenow="71" aria-valuemin="0"></progress>
+                    <data value="71">71%</data>
+                </section>
+            </section>
+            <small id="labelStationnee">Stationnée</small>
+        </header>
+        <section id="accueil">
+            <img id="voiture" src="teslaIcons/model3.png" alt="voiture">
+            <section id="menus">
+                <ul class="menu" role="menu" aria-label="menu avec 4 composants">
+                        <li role="menuitem" aria-label="iMoi"><button><img src="teslaIcons/chaleur.png" alt="iMoi"></button></li>
+                        <li role="menuitem" aria-label="ventilation"><button><img src="teslaIcons/ventilation.png" alt="ventilation"></button></li>
+                        <li role="menuitem" aria-label="charge"><button><img src="teslaIcons/charge.png" alt="charge"></button></li>
+                        <li role="menuitem" aria-label="coffre"><button><img src="teslaIcons/coffre.png" alt="coffre"></button></li>
+                </ul>
+                <ul id="menuList" role="menu" aria-label="menu avec 7 composants">
+                    <li role="menuitem" aria-label="Menu controles" class="liMenu">
+                        <a role="button" class="lienMenu" href="controles.html">
+                            <img id="iconeVoiture" class="icons" src="teslaIcons/voiture.png" alt="icone voiture">
+                            <p>Controles</p>
+                        </a>
+                        <a class="chevron" href="controles.html">></a>
+                    </li>
+                    <li role="menuitem" class="liMenu" aria-label="Menu ventilation">
+                        <a role="button" class="lienMenu" href="#">
+                            <img class="icons" src="teslaIcons/ventilation.png" alt="icone ventilation">
+                            <ol>
+                                <li><p id="ventilation">Ventilation</p></li>
+                                <li><small>Interieur : <data value="23">23°c</data></small></li>
+                            </ol>
+                        </a>
+                        <a class="chevron" href="#">></a>
+                    </li>
+                    <li role="menuitem" class="liMenu" aria-label="Menu position">
+                        <a role="button" class="lienMenu" href="#">
+                            <img class="icons" src="teslaIcons/position.png" alt="icone position">    
+                            <ol>
+                                <li><p id="position">Position</p></li>
+                                <li><small>13 rue paul gigou</small></li>
+                            </ol>
+                        </a>
+                        <a class="chevron" href="#">></a>
+                    </li>
+                    <li role="menuitem" class="liMenu" aria-label="Menu planifier">
+                        <a role="button" class="lienMenu" href="#"><img class="icons" src="teslaIcons/planifier.png" alt="icone planification">Planifier</a>
+                        <a class="chevron" href="#">></a>
+                    </li>
+                    <li role="menuitem" class="liMenu" aria-label="Menu securité et conduction">
+                        <a role="button" class="lienMenu" href="#"><img class="icons" src="teslaIcons/securite.png" alt="icone securité">Securité et conducteurs</a>
+                        <a class="chevron" href="#">></a>
+                    </li>
+                    <li role="menuitem" class="liMenu" aria-label="Menu stats recharges">
+                        <a role="button" class="lienMenu" href="#"><img class="icons" src="teslaIcons/statsrecharge.png" alt="icone recharge">Stats recharge</a>
+                        <a class="chevron" href="#">></a>
+                    </li>
+                    <li role="menuitem" class="liMenu" aria-label="Menu mises a niveau">
+                        <a role="button" class="lienMenu" href="#"><img class="icons" src="teslaIcons/miseaniveau.png " alt="icone de mise a niveau">Mises a niveau</a>
+                        <a class="chevron" href="#">></a>
+                    </li>
+                </ul>
+            </section>  
+        </section>
+        <footer>
+            <p>Tesla © 2022</p>
+        </footer>
+    </body>
+</html>
+
